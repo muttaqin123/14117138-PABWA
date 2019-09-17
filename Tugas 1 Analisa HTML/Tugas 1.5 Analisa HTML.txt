@@ -1,0 +1,18 @@
+1. Lakukanlah perubahan pada kode HML sesuai keinginan anda. Pernahkan terjadi eror ketika ada kesalahan kode?
+	Jawab = 
+		Tidak terjadi eror, jika terjadi typo atau salah kode. HTML tetap dapat dibuka diweb, hanya fitur yang mengalami kesalahan yang dibuat tidak tampil.
+
+2. Coba ubah nilai meta refresh "REFRESH" content="5";
+    Apa yang terjadi? maka jerlaskan apa diantara kegunaan meta dokumen?
+	Jawab = 
+		Ketika meta refresh dari "REFRESH" content="0"; menjadi "REFRESH" content="5"; . Web akan merefresh selama 5 detik, sedangkan jika "REFRESH" content="0" maka
+		web aka direfresh selama 0 detik. Jadi fungsi "REFRESH" content adalah untuk menentukan berapa detika web akan direfresh secara otomatis.
+		
+		Fungi meta dokumen untuk inisialisasi proses seperti bisa menggunakan refresh, keyword untuk pencarian di mesin pencari (contoh = google), dan dapat berupa identitas lainnya.
+
+3. Jelaskan fungsi tag HTML pada table: thead, tbody, tr, th, serta td!
+	Jawab = thead adalah fungsi atau tag untuk membuat header pada table
+			th (head) adalah fungsi atau tag untuk kolom header (biasa digunakan untuk menandakan isi nya cth = nama, NIM dll) pada table
+			tbody adalah fungsi atau tag untuk membuat body atau bagian bawah header (isi pada tabel) pada table
+			tr (row) adalah fungsi atau tag untuk membuat baris pada table
+			td adalah fungsi atau tag untuk membuat kolom pada table
