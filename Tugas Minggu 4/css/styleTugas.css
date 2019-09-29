@@ -1,0 +1,89 @@
+body {
+	font: 20px Montserrat, sans-serif;
+	line-height: 1.8;
+	color: white;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px 18px;
+	text-decoration: none;
+}
+.box1{
+	font:30px algerian;
+	margin-left:30%;
+	padding: 30px;
+	width:600px;
+	background:rgba(0,0,0,0.5);
+}
+.box2{
+	margin-top:45px;
+	border-radius: 20px;
+    overflow: visible;
+    list-style: none;
+    margin-left:42%;
+	font:16px algerian;
+	padding: 30px;
+	width:130px;
+	background:rgba(0,0,0,0.5);
+}
+.bg-1 {
+	color: red;
+	font:30px algerian;
+	background-image:url('../image/foto1.jpeg'); 
+	background-position: fixed;
+	width: 100%;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+.bg-2 {
+	background-color: #8B0000; 
+	color: #ffffff;
+}
+.bg-3 {
+	background-color: #AFEEEE; 
+	color: #555555;
+}
+.bg-4 {
+	background-color: #C71585;
+	color: #fff;
+}
+p {
+	font-size: 16px;
+}
+.margin {
+	margin-bottom: 45px;
+}
+.container-fluid {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+ .navbar-nav {
+	float: right;
+}
+.box ul {
+    border-radius: 20px;
+    overflow: visible;
+    list-style: none;
+    float: right;
+    padding: 0;
+    width: 500px;
+    margin-left:28%;
+    background: #1b2c5c;
+}
+.navbar {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	font-size: 12px;
+	letter-spacing: 5px;
+}
+.navbar-nav li a:hover {
+	color: #1abc9c !important;
+}
