@@ -1,0 +1,4 @@
+Nama                            =   Muhammad Muttaqin
+NIM                             =   14117138
+Kelas Asli                      =   RA
+Kelas Praktikum (pindah jadwal) =   RC (Selasa jam 13.00-14.40) 
