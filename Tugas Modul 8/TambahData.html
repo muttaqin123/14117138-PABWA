@@ -1,0 +1,46 @@
+<HTML>
+<HEAD>
+<title>Tambah Data</title>
+</HEAD>
+<BODY>
+<h2>TAMBAH DATA</h2>
+<form action="ProsesTambahData.php" method="post">
+NIM: <input type="number" name="NRP" maxlength="50" autofocus required> <br><br>
+Nama : <input type="text" name="nama" size="30" maxlength="50" required> <br><br>
+Foto : <input type="file" name="foto" required> <br><br>
+Jurusan : 
+<select name="prodi">
+    <option value="ARS" >ARS</option>
+    <option value="BIO">BIO</option>
+    <option value="EL">EL</option>
+    <option value="FI">FI</option>
+    <option value="GL" >GL</option>
+    <option value="GT">GT</option>
+    <option value="IF">IF</option>
+    <option value="MTK">MTK</option>
+    <option value="PWK" >PWK</option>
+    <option value="TG">TG</option>
+    <option value="TL">TL</option>
+    <option value="TM">TM</option>
+    <option value="TS">TS</option>
+</select><br><br>
+<input type="submit" value="Tambah">
+<input type="reset" value="Reset"><br><br>
+</form>
+========================================<br>
+<h2>SEARCH DATA</h2>
+<form action="TampilSearch.php" method="post">
+    Nama :
+    <input type ="text" name="cari">
+    <input type ="submit" value="Cari Data" >
+    <input type="reset" value="Reset"><br><br>    
+</form>
+========================================<br>
+<h2>HAPUS DATA</h2>
+<form action="HasilDelete.php" method="post">
+    NRP/NIM =
+    <input type ="text" type ="text" name="hapus">
+    <input type ="submit" value="Delete" >
+</form>
+</BODY>
+</HTML>
